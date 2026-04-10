@@ -93,7 +93,7 @@ const Layout = ({ children }) => {
             <div>
               <h3 className="text-white text-lg font-bold mb-4">Conciergerie</h3>
               <p className="text-sm text-gray-400 leading-relaxed">
-                Votre partenaire de confiance pour la gestion de vos biens locatifs. Services premium, disponibilité 24/7.
+                Votre partenaire de confiance avec restaurant, bar, petit-déjeuner, articles de luxe ainsi que room service à votre disposition. Disponibilité 24/7.
               </p>
             </div>
 

@@ -5,17 +5,14 @@ const ScrollToTop = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Scroll to top with smooth animation when navigating to home page
-    if (location.pathname === "/") {
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: "smooth"
       });
-    }
-  }, [location]);
+    }, [location.pathname]);
 
-  return null;
-};
+    return null;
+  };
 
 export default ScrollToTop;
