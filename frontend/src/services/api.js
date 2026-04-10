@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || "https://conciergerie-backend-2uqr.onrender.com/api";
+const API_URL = "https://conciergerie-backend-2uqr.onrender.com/api";
 
 const request = async (endpoint, options = {}) => {
   const token = localStorage.getItem("token");
