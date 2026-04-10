@@ -16,7 +16,10 @@ connectDB();
 const app = express();
 
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173', 'https://conciergerie-app.netlify.app'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Rate limiting for auth routes
