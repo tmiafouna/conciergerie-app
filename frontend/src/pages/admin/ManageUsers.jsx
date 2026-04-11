@@ -46,8 +46,8 @@ const ManageUsers = () => {
     <div className="max-w-7xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-bold text-gray-800 mb-8">Gestion des utilisateurs</h1>
 
-      <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
-        <table className="w-full">
+      <div className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-x-auto">
+        <table className="w-full min-w-[600px]">
           <thead className="bg-gray-50 border-b">
             <tr>
               <th className="text-left px-5 py-3 text-sm font-medium text-gray-500">Nom</th>

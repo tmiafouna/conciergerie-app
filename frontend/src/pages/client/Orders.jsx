@@ -77,8 +77,8 @@ const Orders = () => {
                   {order.user.name} <span className="text-gray-400 font-normal">({order.user.email})</span>
                 </div>
               )}
-              <div className="flex items-center justify-between mb-3">
-                <div className="flex items-center gap-3">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <div className="flex flex-wrap items-center gap-2">
                   <span className={`inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full ${typeInfo.color}`}>
                     {typeInfo.icon} {typeInfo.label}
                   </span>
